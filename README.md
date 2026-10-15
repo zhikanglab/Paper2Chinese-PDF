@@ -1,5 +1,65 @@
-# Paper2Chinese PDF / Word · 学术论文高保真中文译读工具包
+# Paper2Chinese — High-Fidelity Academic Translation Agent Skill
+## 🚀 Quick Start
 
+**Paper2Chinese is an open-source Agent Skill for high-fidelity academic paper translation.**
+
+Translate English research papers into Chinese while preserving the original structure, figures, tables, equations, and scientific notation.
+
+**Supported outputs:** PDF, editable Word (DOCX), or both.
+
+### Step 1: Install the Skill
+
+Open Codex and enter:
+
+```text
+Install the paper2chinese-pdf Agent Skill from:
+
+https://github.com/gli85324-png/Paper2Chinese-PDF
+
+Skill directory: skills/paper2chinese-pdf
+
+Install the Skill for reuse across future sessions.
+
+Check whether the PDF/DOCX toolkit and its Python
+dependencies also need to be installed.
+
+Verify the installation and report the results.
+```
+
+### Step 2: Upload Your Paper
+
+Start a new Codex session and upload an English research paper in PDF format.
+
+### Step 3: Translate
+
+```text
+Use the paper2chinese-pdf Skill to translate
+the uploaded academic paper into Chinese.
+
+Requirements:
+- Preserve the original English title below the Chinese title.
+- Translate the full text without summarizing.
+- Preserve the original section and paragraph order.
+- Place figures, tables, and equations near their corresponding text.
+- Preserve scientific notation, subscripts, and superscripts.
+- Maintain natural Chinese character spacing.
+- Preserve all original experimental data and conclusions.
+- Inspect the final document page by page.
+
+Output format: PDF.
+```
+
+### Important Notes
+
+Paper2Chinese is an AI-assisted translation workflow,
+not a fully automatic one-click translation service.
+
+Translation accuracy, figure placement, mathematical notation,
+and final document quality still require verification.
+
+Additional Python dependencies may be needed for PDF/DOCX generation.
+
+---
 **English:** A reproducible agent skill and layout helper for translating academic English PDFs into readable **PDF and editable Word (DOCX)** Chinese editions with inline original figures, tables and equations.
 
 > **Status: early open-source starter / public beta.** This repository contains a complete bilingual layout/QA **skill**, a copy-paste ChatGPT prompt, a reviewable JSON manuscript format, and functioning PDF inspect/build/audit, DOCX build/audit, and source-alignment helper commands. **It is NOT an automatic one-click paper translator**: an AI agent or researcher must supply and review accurate Chinese translations and source-page figure/table/equation coordinates. No OpenAI API call is required by the companion CLI; it does not expose or secretly upload your PDFs.
