@@ -73,7 +73,7 @@ Readers of technical manuscripts should **not** read translated paragraphs on pa
 Open `PROMPT_另一个聊天框直接使用.md`; paste it into a new ChatGPT chat or a ChatGPT **Project instructions** field. Attach the English PDF plus (optionally) a trusted sample Chinese PDF for style reference. Ask to translate **one paper at a time**. Whether the app can generate downloadable PDF files depends on the currently available tools.
 
 ### B. Codex / other Agent Skills implementations
-- Put `.agents/skills/paper2chinese-pdf/` into your Codex-enabled repository, following the current product's skill discovery conventions.
+- Install the Skill from `skills/paper2chinese-pdf/` into your Codex user-level Skills directory, or copy it into `.agents/skills/paper2chinese-pdf/` in your own repository.
 - Or use the separately distributed `paper2chinese-pdf-skill.zip` with its `SKILL.md`, references and standalone PDF tooling.
 - For compatible hosts supporting portable Agent Plugins, the repository root includes `plugin.json` and the `skills/` directory. This is a **skill-only starter**, without an MCP server.
 - Ask: `Use the paper2chinese-pdf skill to translate this source paper into a Chinese PDF, Word document, or both, with inline figures/tables/equations and QA.`
@@ -129,7 +129,7 @@ The JSON example is a **synthetic demonstration**, not a full translated researc
 Source code and the synthetic demo are MIT-licensed. **Do not commit other authors' copyrighted PDFs, full translated papers, personal records, API keys, or proprietary fonts.** Review article copyrights and publisher permissions before publicly distributing full translations and figures.
 
 ## GitHub repository vs Agent Plugin vs cloud software
-This repository includes a minimal **portable Agent Plugin manifest** (`plugin.json`) and a matching **skill-only plugin** at `skills/paper2chinese-pdf/SKILL.md`. It also includes a Codex repository skill at `.agents/skills/paper2chinese-pdf/`. Packaging does **not** mean this has been reviewed or published in the ChatGPT Plugin Directory; user eligibility and host support still apply.
+This repository includes a minimal **portable Agent Plugin manifest** (`plugin.json`) and a matching **skill-only plugin** at `skills/paper2chinese-pdf/SKILL.md`. Packaging does **not** mean this has been reviewed or published in the ChatGPT Plugin Directory; user eligibility and host support still apply.
 
 The plugin is primarily a **workflow skill**. Its PDF helper scripts run locally when the execution environment supports Python. A hosted ChatGPT app providing one-click translation to all consumers would require a network-accessible MCP server, hosted file processing, authentication/security/privacy design, and plugin submission. We do not claim those have been built. See [official Agent Plugins packaging guidance](https://developers.openai.com/plugins/build/plugins).
 
