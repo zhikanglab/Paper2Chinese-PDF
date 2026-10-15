@@ -1,6 +1,6 @@
 # Paper2Chinese PDF/DOCX repository agent instructions
 
-For any task that translates an English academic PDF into a Chinese PDF/DOCX, load `.agents/skills/paper2chinese-pdf/SKILL.md` before translation and follow its references as needed.
+For any task that translates an English academic PDF into a Chinese PDF/DOCX, load `skills/paper2chinese-pdf/SKILL.md` before translation and follow its references as needed.
 
 Non-negotiable quality gates: exact English original title under Chinese translated title; complete sequential translation; inline source-faithful figures/tables/equations; human-verified two-column reading order; full rendered page QA; one paper at a time; no output archives of copyrighted full papers in GitHub repo.
 
