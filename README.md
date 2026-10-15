@@ -14,7 +14,7 @@ Open Codex and enter:
 ```text
 Install the paper2chinese-pdf Agent Skill from:
 
-https://github.com/gli85324-png/Paper2Chinese-PDF
+https://github.com/zhikanglab/Paper2Chinese-PDF
 
 Skill directory: skills/paper2chinese-pdf
 
