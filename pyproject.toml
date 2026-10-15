@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper2chinese-pdf"
+version = "0.2.0"
+description = "Chinese academic paper PDF and editable Word layout and QA companion for Agent Skills"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["PyMuPDF>=1.24.0", "WeasyPrint>=60.0", "python-docx>=1.1.0"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0", "PyYAML>=6.0"]
+
+[project.scripts]
+paper2zh = "toolkit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["toolkit*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

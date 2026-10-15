@@ -1,0 +1,26 @@
+{
+  "source_pdf": "synthetic_source.pdf",
+  "metadata": {
+    "paper_number": "4",
+    "title_zh": "多孔材料的动态力学行为：合成示例",
+    "title_en": "Dynamic Mechanical Behavior of a Porous Material: A Synthetic Example",
+    "authors": "A. Researcher et al.",
+    "journal": "Synthetic Journal",
+    "year": "2026"
+  },
+  "expected_counts": {"figures": 1, "tables": 1, "equations": 1, "references": 1},
+  "blocks": [
+    {"type": "heading", "text": "摘要"},
+    {"type": "paragraph", "text": "这是一个原创、合成的翻译排版示例，用于演示中文正文、图表及公式的相邻放置。它不是任何真实期刊论文的翻译内容。"},
+    {"type": "heading", "text": "1 试验方法"},
+    {"type": "paragraph", "text": "下图模拟不同载荷下的响应曲线，图像紧跟介绍它的正文段落。"},
+    {"type": "figure", "source_page": 1, "bbox": [62, 170, 490, 360], "label": "图1", "caption": "合成曲线的示意图。"},
+    {"type": "paragraph", "text": "相应数学表达式如下，保持编号与上标的可读性。"},
+    {"type": "equation", "source_page": 1, "bbox": [100, 391, 445, 442], "label": "（1）"},
+    {"type": "paragraph", "text": "相关示例数据列于表1，作为可验证的图表编号示例。"},
+    {"type": "table", "source_page": 1, "bbox": [72, 500, 490, 603], "label": "表1", "caption": "合成数值对照表。"},
+    {"type": "heading", "text": "参考文献"},
+    {"type": "references", "items": ["[1] Synthetic example, no external publication."]}
+  ],
+  "quality": {"translation_reviewed": false, "layout_reviewed": false}
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "paper2chinese-pdf",
+  "version": "0.2.0",
+  "description": "High-fidelity Chinese academic paper translation workflow supporting PDF, editable Word DOCX or both, with inline source figures/tables/equations and independently reviewed layout. Skill-only starter and companion CLI; not a one-click translation service.",
+  "author": {
+    "name": "Paper2Chinese PDF Contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "academic",
+    "pdf",
+    "translation",
+    "chinese",
+    "research",
+    "shpb",
+    "skill",
+    "docx",
+    "word",
+    "mathematical-notation"
+  ]
+}
